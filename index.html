@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shoumik Ahmed is a Computer Science student building thoughtful, reliable software across products, systems, data, and developer experiences." />
+    <meta name="theme-color" content="#f6f7f4" />
+    <title>Shoumik Ahmed — Software Developer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Shoumik Ahmed home">SHOUMIK <span>AHMED</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span>Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Toolkit</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section container reveal" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Computer Science · York University</p>
+          <h1 id="hero-title">I build reliable software, <em>then make it feel effortless.</em></h1>
+          <p class="hero-lede">I’m Shoumik, a Computer Science student who enjoys turning ideas into thoughtful software — from backend systems and data workflows to user-facing experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View projects <span>↓</span></a>
+            <a class="button button-quiet" href="assets/shoumik-ahmed-resume.pdf" download>Download resume <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span>Based in Toronto, Canada</span><span class="meta-line"></span><span>Available for thoughtful collaborations</span></div>
+        </div>
+        <div class="system-art" aria-label="Abstract diagram representing connected software systems" role="img">
+          <div class="art-label art-label-top">OBSERVE / TEST / IMPROVE</div>
+          <svg viewBox="0 0 520 520" aria-hidden="true">
+            <defs><linearGradient id="lineGradient" x1="0" x2="1"><stop offset="0" stop-color="#d86b4b" stop-opacity=".35"/><stop offset="1" stop-color="#d86b4b" stop-opacity=".9"/></linearGradient></defs>
+            <circle class="orbit orbit-one" cx="260" cy="260" r="190"></circle>
+            <circle class="orbit orbit-two" cx="260" cy="260" r="125"></circle>
+            <path class="connector" d="M100 360 L188 274 L350 318 L420 186 L275 110 L188 274"></path>
+            <path class="connector connector-soft" d="M100 360 L275 110 L420 186 L350 318 L188 274"></path>
+            <circle class="node node-large" cx="260" cy="260" r="36"></circle>
+            <circle class="node node-small node-a" cx="100" cy="360" r="11"></circle>
+            <circle class="node node-small node-b" cx="188" cy="274" r="11"></circle>
+            <circle class="node node-small node-c" cx="350" cy="318" r="11"></circle>
+            <circle class="node node-small node-d" cx="420" cy="186" r="11"></circle>
+            <circle class="node node-small node-e" cx="275" cy="110" r="11"></circle>
+            <text x="260" y="255" text-anchor="middle">quality</text><text x="260" y="274" text-anchor="middle">loop</text>
+          </svg>
+          <div class="art-label art-label-bottom"><span>01</span><span>Small systems, careful thinking.</span></div>
+        </div>
+      </section>
+
+      <section class="section section-rule container reveal" id="about" aria-labelledby="about-title">
+        <div class="section-heading"><p class="section-kicker">01 / About</p><h2 id="about-title">Curious about how things work — and how they can work better.</h2></div>
+        <div class="about-grid">
+          <div class="about-story"><p class="large-copy">My favorite engineering work sits between people and systems: turning an idea into a clear experience, shaping the logic underneath it, and making the result dependable.</p><p>I enjoy the full software development loop — understanding a problem, designing a solution, writing code, working with data and APIs, and learning from the way real people use what I build.</p><div class="story-note"><span class="note-mark">↳</span><span>My co-op experiences have strengthened how I build: think broadly about the product, then use testing, observability, and debugging to make each part better.</span></div></div>
+          <div class="principles"><article><span>01</span><h3>Make the path obvious</h3><p>Clear interfaces and maintainable systems make good work easier to find.</p></article><article><span>02</span><h3>Test the edges</h3><p>Automation, observability, and careful debugging protect the moments users notice most.</p></article><article><span>03</span><h3>Keep learning in public</h3><p>Curiosity across product, data, and design makes the technical work more human.</p></article></div>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading split-heading"><div><p class="section-kicker">02 / Experience</p><h2 id="experience-title">Learning through real systems, real users, and real feedback.</h2></div><p class="heading-aside">A growing practice in taking software from a rough idea to something clear, useful, and dependable.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-date">May 2026 — Dec 2026</div><div class="timeline-marker"></div><div class="timeline-content"><p class="role-type">Software Developer in Test Intern · Toronto</p><h3>Genesys</h3><p>Developing Kotlin API tests and Playwright end-to-end UI tests, investigating failures through Jenkins, logs, and New Relic, and collaborating with developers and QA engineers in an Agile workflow.</p><div class="tag-row"><span>Kotlin</span><span>Playwright</span><span>Jenkins</span><span>New Relic</span></div></div></article>
+          <article class="timeline-item"><div class="timeline-date">Sept 2024 — Apr 2025</div><div class="timeline-marker"></div><div class="timeline-content"><p class="role-type">QA Analyst Intern · North York</p><h3>Dayforce</h3><p>Designed and executed 300+ manual test cases across 60+ user stories, automated 20+ UI regression tests, validated backend data with SQL Server, and tracked defects through Jira.</p><div class="tag-row"><span>TypeScript</span><span>SQL Server</span><span>Jira</span><span>Regression</span></div></div></article>
+          <article class="timeline-item"><div class="timeline-date">Sept 2023</div><div class="timeline-marker"></div><div class="timeline-content"><p class="role-type">Keynote Presenter · North York</p><h3>Lassonde Fall Campus Day</h3><p>Presented to more than 200 prospective students and parents, helping make the Computer Science experience feel tangible and welcoming.</p><div class="timeline-outcome"><strong>200+</strong><span>attendees reached</span></div></div></article>
+        </div>
+      </section>
+
+      <section class="section projects-section section-rule container reveal" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading split-heading"><div><p class="section-kicker">03 / Selected work</p><h2 id="projects-title">A few ways I like to turn ideas into useful software.</h2></div><p class="heading-aside">Projects, experiments, and case studies across product thinking, systems, data, and quality.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured"><div class="project-topline"><span>01</span><span>BEST Hackathon Project</span></div><div class="project-visual visual-ai"><span class="visual-chip">AI</span><span class="visual-field field-one">Name</span><span class="visual-field field-two">Email</span><span class="visual-field field-three">Company</span><span class="visual-cursor">✦</span></div><div class="project-body"><p class="project-type">Automation · User experience</p><h3>AI Form Autofill App</h3><p>An AI-powered autofill concept designed to reduce repetitive form work while improving data accuracy and confidence.</p><div class="project-result"><strong>40%</strong><span>reduction in completion time</span></div><div class="tag-row"><span>AI</span><span>Automation</span><span>UX</span></div></div><details><summary>View project thinking <span>↗</span></summary><p>Contributed to an AI-powered workflow that intelligently populates form fields. The project focused on making automation feel helpful, transparent, and easy to correct.</p></details></article>
+          <article class="project-card"><div class="project-topline"><span>02</span><span>Data & analytics</span></div><div class="project-visual visual-data"><div class="bar bar-one"></div><div class="bar bar-two"></div><div class="bar bar-three"></div><div class="bar bar-four"></div><div class="data-label">DEMAND / REVENUE / PROFIT</div></div><div class="project-body"><p class="project-type">SQL · Power BI · DAX</p><h3>Cruise Critic Database & Analytics</h3><p>A star-schema analytics layer exploring revenue, profitability, and destination demand for a cruise review platform.</p><div class="tag-row"><span>SQL Server</span><span>Power BI</span><span>DAX</span></div></div><details><summary>View project thinking <span>↗</span></summary><p>Extended a course-based database project by shaping the data into a reporting model and building a clear analytical view for business questions.</p></details></article>
+          <article class="project-card"><div class="project-topline"><span>03</span><span>Learning case study</span></div><div class="project-visual visual-test"><div class="test-ring"><span>PASS</span></div><div class="test-line line-a"></div><div class="test-line line-b"></div><div class="test-line line-c"></div></div><div class="project-body"><p class="project-type">Playwright · APIs · CI/CD</p><h3>Test Automation Toolkit</h3><p>A learning case study distilling reusable Playwright patterns, API checks, failure triage, and regression thinking.</p><div class="tag-row"><span>Playwright</span><span>TypeScript</span><span>CI/CD</span></div></div><details><summary>View project thinking <span>↗</span></summary><p>This is intentionally presented as a learning case study until a public repository is supplied. It is a place to document the patterns behind dependable test coverage.</p></details></article>
+        </div>
+      </section>
+
+      <section class="section toolkit-section container reveal" id="skills" aria-labelledby="skills-title"><div class="section-heading"><p class="section-kicker">04 / Toolkit</p><h2 id="skills-title">Tools are useful. Knowing when to reach for them is better.</h2></div><div class="toolkit-list"><div class="toolkit-row"><span>Languages</span><p>Java <i>·</i> Python <i>·</i> C++ <i>·</i> Kotlin <i>·</i> JavaScript <i>·</i> TypeScript <i>·</i> SQL</p></div><div class="toolkit-row"><span>Product & frontend</span><p>HTML <i>·</i> CSS <i>·</i> React.js <i>·</i> Node.js <i>·</i> Figma <i>·</i> User-focused design</p></div><div class="toolkit-row"><span>Backend & systems</span><p>REST APIs <i>·</i> Microservices <i>·</i> OOP <i>·</i> Distributed systems <i>·</i> Docker <i>·</i> Linux</p></div><div class="toolkit-row"><span>Quality & delivery</span><p>Playwright <i>·</i> Selenium <i>·</i> Postman <i>·</i> Jenkins <i>·</i> CI/CD <i>·</i> Jira <i>·</i> Debugging</p></div><div class="toolkit-row"><span>Data & cloud</span><p>Power BI <i>·</i> DAX <i>·</i> SQL Server <i>·</i> Excel <i>·</i> Google Cloud <i>·</i> AWS <i>·</i> Azure</p></div></div></section>
+
+      <section class="contact-section reveal" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><div><p class="section-kicker light">05 / Contact</p><h2 id="contact-title">Want to build something <em>worth using?</em></h2><p class="contact-copy">I’m always open to thoughtful conversations about software, product ideas, and the next interesting problem to solve.</p></div><div class="contact-links"><a class="contact-email" href="mailto:shoumik@my.yorku.ca">shoumik@my.yorku.ca <span>↗</span></a><div class="social-links"><a href="#contact" aria-label="LinkedIn profile link placeholder">LinkedIn <span>↗</span></a><a href="#contact" aria-label="GitHub profile link placeholder">GitHub <span>↗</span></a><a href="assets/shoumik-ahmed-resume.pdf" download>Resume <span>↓</span></a></div></div></div><footer class="container footer"><span>© 2026 Shoumik Ahmed</span><span>Built with care · Toronto, Canada</span></footer></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
